@@ -13,19 +13,7 @@ This project follows the **Model-View-Controller (*MVC*)** design pattern:
 
 ## Usage
 
-To start the game, run the `JBomberman` class. Here are the steps to do so:
-
-Compile the project:
-```shell
-javac -d bin src/**/*.java
-```
-
-Run the game:
-```shell
-java -cp bin JBomberman
-```
-
-Alternatively, if you are using an IDE like **IntelliJ** or **Eclipse**, you can simply run the `JBomberman` class inside the `src/` folder.
+To start the game, if you are using an IDE like **IntelliJ** or **Eclipse**, you can simply run the `JBomberman` class inside the `src/` folder.
 
 ### Controls
 
