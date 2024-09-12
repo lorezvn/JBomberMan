@@ -4,6 +4,10 @@
 
 **JBomberman** is a Java-based remake of the classic Bomberman game highly inspired by *Super Bomberman* (SNES). The game is implemented using **Java Swing** library for graphics. 
 
+## Prerequisites
+
+Ensure you have **Java 8** or higher installed.
+
 ## Project Structure
 
 This project follows the **Model-View-Controller (*MVC*)** design pattern:
@@ -12,8 +16,17 @@ This project follows the **Model-View-Controller (*MVC*)** design pattern:
 * `src/model/`: contains classes that define the core aspects of the game. The model is designed to remain unaware of the view and controller implementations, ensuring that it manages game data and rules without knowledge of how the game is displayed or controlled.
 
 ## Usage
+  1. Clone this repository:
+     ```shell
+     git clone https://github.com/lorezvn/JBomberMan.git
+     ```
+     
+  2. To start the game, if you are using an IDE like **IntelliJ** or **Eclipse**, you can simply run the `JBomberman` class inside the `src/` folder.
 
-To start the game, if you are using an IDE like **IntelliJ** or **Eclipse**, you can simply run the `JBomberman` class inside the `src/` folder.
+<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bc12e44d-9019-4064-95a6-16c7b9434abe" width="400" height="400" />
+</p>
 
 ### Controls
 
